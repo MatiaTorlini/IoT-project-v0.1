@@ -1,0 +1,6 @@
+//Babel is a transcompiler. It is used by webpack to transcopile files for automatic backward compatibility
+{
+	"presets": ["@babel/preset-env", "@babel/preset-react"], //tell babel which preset to use.
+	//preset-env loads preset depending on the environment e.g. nodejs
+	//preset-react loads preset for react, making jsx code convertible into some code the browser can read
+}

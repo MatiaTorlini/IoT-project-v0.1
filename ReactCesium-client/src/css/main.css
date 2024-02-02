@@ -1,0 +1,69 @@
+html,
+body,
+#cesiumContainer {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: sans-serif;
+	color: #edffff;
+}
+
+#controlPanel {
+	position: absolute;
+	top: 76pt;
+	right: -500pt; /* Initially hide to the right */
+	bottom : 100pt;
+	background: rgba(211, 209, 209, 0.8);
+	border-radius: 5px;
+	padding-left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 450pt;
+	box-shadow: rgba(100, 100, 100, 0.2) -4pt 2pt 10pt;
+	z-index: 999;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transition: right 1s ease-out; /* Transition the right property */
+	transform: translateX(-115%);
+  }
+
+  #controlPanel2 {
+	position: absolute;
+	top: 60pt;
+	right: -485pt; /* Initially hide to the right */
+	bottom : 50pt;
+	background: rgba(211, 209, 209, 0.8);
+	border-radius: 5px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 430pt;
+	box-shadow: rgba(100, 100, 100, 0.2) -4pt 2pt 10pt;
+	z-index: 1000;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transition: right 1s ease-out; /* Transition the right property */
+	transform: translateX(-115%);
+  }
+
+
+
+label {
+	cursor: pointer;
+}
+
+label:hover span {
+	text-decoration: underline;
+}
+
+.vertical---line {
+	width: 1px;
+	height : 500pt;
+	background-color: grey;
+	left:0
+
+}
