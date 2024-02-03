@@ -13,4 +13,5 @@ ReactCesium - iot-wrapper :
 
 NB: requires InfluxDB-service, mosquitto-service and mongodb-service installed 
 and properly configured (also telegraf as plus).
-
+A possible mosquitto and telegraf configuration files can be found in the 
+ConfigurationFiles folder
